@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-left: 25px;
+}
+.menu{
+
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.menu aside ul{
+     gap: 50px;
+     margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+menu aside ul li{
+    text-decoration: none;
+    color: black
+}
